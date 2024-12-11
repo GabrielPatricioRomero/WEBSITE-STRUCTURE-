@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eventa|Local Communicaty Event</title>
+    <title>Eventa|Local Community Event</title>
     <link rel="stylesheet" href="styless.css">
 </head>
 <body>
@@ -19,23 +19,73 @@
                 <li><a href="register.html">Register</a></li>
                 <li><a href="contact.html">Contact</a></li>
                 <li><a href="blog.html">Blog</a></li>
+                <li><a href="volunteers.html">Volunteer</a></li> <!-- New volunteer page link -->
             </ul>
         </nav>
     </header>
 
     <!-- Main Content Section -->
     <main>
-        <!-- Example of Home Page Section -->
+        <!-- Welcome Section -->
         <section id="home">
             <h1>Welcome to the Community Event!</h1>
             <p>Join us for an exciting day of activities, learning, and community building.</p>
             <a href="register.html" class="cta-button">Register Now</a>
         </section>
 
-        <!-- Example of Other Sections like About, Schedule, etc. -->
-        <section id="about">
-            <h2>About the Event</h2>
-            <p>Details about the event...</p>
+        <!-- Event Details Section -->
+        <section id="event-details">
+            <h2>Upcoming Events</h2>
+            <div class="event">
+                <h3>Tech Workshop for Beginners</h3>
+                <p>Date: July 30, 2024 | Time: 10:00 AM - 2:00 PM</p>
+                <p>Location: Community Center, Main Street</p>
+                <p>Description: A workshop for beginners to get started with tech tools. Topics covered include basic coding, web development, and more!</p>
+                <a href="register.html" class="cta-button">RSVP Now</a> <!-- RSVP Button -->
+            </div>
+            <div class="event">
+                <h3>Art Exhibition: Local Creatives</h3>
+                <p>Date: August 15, 2024 | Time: 6:00 PM - 9:00 PM</p>
+                <p>Location: Art Gallery, Elm Road</p>
+                <p>Description: An exhibition showcasing artwork from local artists. Come enjoy the creativity and support local talent.</p>
+                <a href="register.html" class="cta-button">RSVP Now</a> <!-- RSVP Button -->
+            </div>
+        </section>
+
+        <!-- Event Calendar Section -->
+        <section id="event-calendar">
+            <h2>Event Calendar</h2>
+            <p>View upcoming events by month:</p>
+            <iframe src="https://www.google.com/calendar/embed?src=yourcalendarurl&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+        </section>
+
+        <!-- Event Ticketing Section -->
+        <section id="event-ticketing">
+            <h2>Tickets Available</h2>
+            <div class="ticket">
+                <h3>General Admission</h3>
+                <p>$20</p>
+                <p>Access to all events and sessions.</p>
+                <a href="payment.html" class="cta-button">Buy Ticket</a>
+            </div>
+            <div class="ticket">
+                <h3>VIP Admission</h3>
+                <p>$50</p>
+                <p>Exclusive access to speaker sessions and VIP lounge.</p>
+                <a href="payment.html" class="cta-button">Buy Ticket</a>
+            </div>
+        </section>
+
+        <!-- Volunteer Sign-Up Section -->
+        <section id="volunteer">
+            <h2>Become a Volunteer</h2>
+            <p>Help us make this event a success! Volunteers receive free access and perks. Sign up for one of the roles below:</p>
+            <ul>
+                <li>Registration Desk</li>
+                <li>Event Security</li>
+                <li>Technical Support</li>
+            </ul>
+            <a href="volunteers.html" class="cta-button">Sign Up to Volunteer</a>
         </section>
 
     </main>
