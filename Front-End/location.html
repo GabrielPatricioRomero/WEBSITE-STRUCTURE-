@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventa | Find Events Near You</title>
+    <link rel="stylesheet" href="styless.css">
+    <!-- Google Maps API Key (Replace with your own API Key) -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+    <script src="location.js" defer></script>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="schedule.html">Schedule</a></li>
+                <li><a href="location.html">Location</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="volunteers.html">Volunteer</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <!-- Location Section -->
+        <section id="location">
+            <h1>Find Events Near You</h1>
+            <p>We use your location to display upcoming events happening near you. Stay informed and get involved!</p>
+            
+            <!-- Map Container -->
+            <div id="map" style="height: 500px; width: 100%;"></div>
+
+            <!-- Nearby Events List -->
+            <div id="events-nearby">
+                <h2>Nearby Events:</h2>
+                <ul id="event-list">
+                    <!-- Dynamic event list will be populated here -->
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Community Event. All rights reserved.</p>
+        <ul>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms of Service</a></li>
+        </ul>
+    </footer>
+
+</body>
+</html>
