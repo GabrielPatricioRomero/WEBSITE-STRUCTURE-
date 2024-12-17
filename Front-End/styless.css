@@ -9,8 +9,8 @@
 }
 
 body {
-    background-color: #f7f7f7;
-    color: #333;
+    background-color: red;
+    color: red ;
     line-height: 1.6;
     font-size: 1rem;
 }
@@ -96,7 +96,8 @@ header nav ul li a:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: linear-gradient(135deg, #3498db, #9b59b6);
+    background: linear-gradient(135deg, green 
+    , blue);
     padding: 100px 50px;
     color: white;
     text-align: left;
@@ -124,7 +125,7 @@ header nav ul li a:hover {
 }
 
 .home-content .cta-button {
-    background-color: #f39c12;
+    background-color: orange;
     color: white;
     padding: 12px 30px;
     font-size: 1.2rem;
@@ -147,7 +148,7 @@ header nav ul li a:hover {
 
 /* Register Section */
 #register {
-    background-color: #ecf0f1;
+    background-color: white;
     padding: 80px 50px;
     text-align: center;
 }
@@ -237,7 +238,7 @@ header nav ul li a:hover {
    FOOTER
    ============================== */
 footer {
-    background-color: #34495e;
+    background-color: black;
     color: white;
     padding: 30px 0;
     text-align: center;
@@ -310,7 +311,7 @@ footer ul li a:hover {
 
 .calendar-grid div {
     padding: 20px;
-    background-color: #fff;
+    background-color: white;
     border-radius: 5px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     cursor: pointer;
@@ -318,18 +319,18 @@ footer ul li a:hover {
 }
 
 .calendar-grid div:hover {
-    background-color: #004d80;
+    background-color: green;
     color: white;
     transform: translateY(-5px);
 }
 
 .calendar-grid div.event-day {
-    background-color: #f0f8ff;
+    background-color: whitesmoke;
     font-weight: bold;
 }
 
 .calendar-grid div.selected {
-    background-color: #004d80;
+    background-color: green;
     color: white;
 }
 
