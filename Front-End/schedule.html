@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventa | Schedule</title>
+    <link rel="stylesheet" href="styless.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="schedule.html" class="active">Schedule</a></li>
+                <li><a href="location.html">Location</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="volunteers.html">Volunteer</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <section id="schedule">
+            <h1>Event Schedule</h1>
+            <p>Explore the schedule for upcoming events. Each event is carefully planned to provide a fun and engaging experience!</p>
+
+            <!-- Calendar View -->
+            <div class="calendar">
+                <div class="calendar-header">
+                    <button id="prevMonth">&#8592;</button>
+                    <h2 id="currentMonth">August 2024</h2>
+                    <button id="nextMonth">&#8594;</button>
+                </div>
+                <div class="calendar-grid">
+                    <!-- Dynamic Calendar Cells will be injected here -->
+                </div>
+            </div>
+
+            <!-- Event Details Modal (Hidden initially) -->
+            <div id="eventModal" class="modal">
+                <div class="modal-content">
+                    <span class="close-btn">&times;</span>
+                    <h3 id="modalEventTitle">Event Title</h3>
+                    <p id="modalEventTime">Event Time</p>
+                    <p id="modalEventLocation">Event Location</p>
+                    <p id="modalEventDescription">Event Description</p>
+                    <a href="register.html" class="cta-button">Register Now</a>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Community Event. All rights reserved.</p>
+        <ul>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms of Service</a></li>
+        </ul>
+    </footer>
+
+    <script src="schedule.js"></script>
+
+</body>
+</html>
